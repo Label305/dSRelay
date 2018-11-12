@@ -1,0 +1,41 @@
+PODS:
+  - dSRelay (0.1.0):
+    - SwiftSocket
+    - thenPromise
+  - InstantMock (2.2.1)
+  - Nimble (7.3.1)
+  - Quick (1.3.2)
+  - SwiftSocket (2.0.2)
+  - thenPromise (4.2.0)
+
+DEPENDENCIES:
+  - dSRelay (from `../`)
+  - InstantMock
+  - Nimble
+  - Quick
+  - SwiftSocket
+  - thenPromise
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - InstantMock
+    - Nimble
+    - Quick
+    - SwiftSocket
+    - thenPromise
+
+EXTERNAL SOURCES:
+  dSRelay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dSRelay: 9b3ef3597123726d59c1cbd924ec0298fa5a40b7
+  InstantMock: f9fa28bd0ddb7115329e02d2a1979cc2e7752dca
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+  thenPromise: e46ebb9a45c23cbaa681eeeee3f59929a21c639d
+
+PODFILE CHECKSUM: b78513e3413430edd22ccca6529e4dc6740d79c7
+
+COCOAPODS: 1.5.3

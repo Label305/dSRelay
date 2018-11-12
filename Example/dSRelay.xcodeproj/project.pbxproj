@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248ED4F02199C438000FE871 /* SwiftSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248ED4EF2199C438000FE871 /* SwiftSocket.framework */; };
+		248ED4F22199C438000FE871 /* then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248ED4F12199C438000FE871 /* then.framework */; };
+		248ED4F42199C43A000FE871 /* dSRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248ED4F32199C43A000FE871 /* dSRelay.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,9 +32,12 @@
 
 /* Begin PBXFileReference section */
 		1089D6052FABE955941620DC /* Pods-dSRelay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dSRelay_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dSRelay_Example/Pods-dSRelay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		130C409665FAF8B8A3B044DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		130C409665FAF8B8A3B044DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		248ED4EF2199C438000FE871 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248ED4F12199C438000FE871 /* then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248ED4F32199C43A000FE871 /* dSRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = dSRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2558E903B8217CD9C892B326 /* Pods-dSRelay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dSRelay_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dSRelay_Tests/Pods-dSRelay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5862A2E71B3651C52F26BB36 /* dSRelay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = dSRelay.podspec; path = ../dSRelay.podspec; sourceTree = "<group>"; };
+		5862A2E71B3651C52F26BB36 /* dSRelay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = dSRelay.podspec; path = ../dSRelay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* dSRelay_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dSRelay_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +49,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A82DD1FB94539C2EC68A47D /* Pods-dSRelay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dSRelay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dSRelay_Tests/Pods-dSRelay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6B12C20DB2662FF887FC04C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B12C20DB2662FF887FC04C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB3132945B4B8948EE546650 /* Pods_dSRelay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dSRelay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BC8DB6A9AEBC101DCDBE58 /* Pods_dSRelay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dSRelay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07FB7136BF36A7BB7EDFE64 /* Pods-dSRelay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dSRelay_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-dSRelay_Example/Pods-dSRelay_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248ED4F42199C43A000FE871 /* dSRelay.framework in Frameworks */,
+				248ED4F02199C438000FE871 /* SwiftSocket.framework in Frameworks */,
+				248ED4F22199C438000FE871 /* then.framework in Frameworks */,
 				D43CEB7514990182CEB3950D /* Pods_dSRelay_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +81,9 @@
 		151399743DD628FE72F9A5FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				248ED4F32199C43A000FE871 /* dSRelay.framework */,
+				248ED4EF2199C438000FE871 /* SwiftSocket.framework */,
+				248ED4F12199C438000FE871 /* then.framework */,
 				DB3132945B4B8948EE546650 /* Pods_dSRelay_Example.framework */,
 				E7BC8DB6A9AEBC101DCDBE58 /* Pods_dSRelay_Tests.framework */,
 			);
@@ -208,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -293,13 +305,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-dSRelay_Example/Pods-dSRelay_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/dSRelay/dSRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/thenPromise/then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dSRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,6 +353,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-dSRelay_Tests/Pods-dSRelay_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/dSRelay/dSRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/thenPromise/then.framework",
+				"${BUILT_PRODUCTS_DIR}/InstantMock/InstantMock.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -344,6 +364,10 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dSRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantMock.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -414,12 +438,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -467,12 +493,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

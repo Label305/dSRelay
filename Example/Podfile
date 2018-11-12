@@ -2,11 +2,17 @@ use_frameworks!
 
 target 'dSRelay_Example' do
   pod 'dSRelay', :path => '../'
+  pod 'SwiftSocket'
+  pod 'thenPromise'
 
   target 'dSRelay_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
+    pod 'dSRelay', :path => '../'
+    pod 'SwiftSocket'
+    pod 'thenPromise'
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'InstantMock'
   end
 end

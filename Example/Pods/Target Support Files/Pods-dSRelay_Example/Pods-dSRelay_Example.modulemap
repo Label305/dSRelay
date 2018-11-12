@@ -1,0 +1,6 @@
+framework module Pods_dSRelay_Example {
+  umbrella header "Pods-dSRelay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
