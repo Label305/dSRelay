@@ -1,6 +1,6 @@
 # dSRelay
 
-[![CI Status](https://img.shields.io/travis/meirbon/dSRelay.svg?style=flat)](https://travis-ci.org/meirbon/dSRelay)
+[![CI Status](https://travis-ci.com/Label305/dSRelay.svg?branch=master)](https://travis-ci.com/Label305/dSRelay)
 [![Version](https://img.shields.io/cocoapods/v/dSRelay.svg?style=flat)](https://cocoapods.org/pods/dSRelay)
 [![License](https://img.shields.io/cocoapods/l/dSRelay.svg?style=flat)](https://cocoapods.org/pods/dSRelay)
 [![Platform](https://img.shields.io/cocoapods/p/dSRelay.svg?style=flat)](https://cocoapods.org/pods/dSRelay)
