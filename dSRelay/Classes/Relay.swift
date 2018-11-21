@@ -10,6 +10,9 @@ import Foundation
 import then
 
 extension Device {
+    /**
+     * Sets a relay to the specified state
+     */
     open func setRelay(relayNr: UInt8, set: Status) -> Promise<Bool> {
         let payload: [UInt8] = [0x31, relayNr, set.rawValue, 0x00, 0x00, 0x00, 0x000] // command byte
         
@@ -25,7 +28,7 @@ extension Device {
     }
     
     /**
-     * @param pulseTime: turns relay on, then turns it off after pulsetime has expired
+     * @param pulseTime: time to stay turned on in milliseconds
      */
     open func setRelay(relayNr: UInt8, pulseTime: UInt) -> Promise<Bool> {
         let payload: [UInt8] = [
@@ -120,6 +123,9 @@ extension Device {
     }
 }
 
+/**
+ * Extension to String to pad a string to a specified length with a specified character
+ */
 extension String {
     public func pad(with padding: Character, toLength length: Int) -> String {
         let paddingWidth = length - self.count
@@ -129,6 +135,10 @@ extension String {
     }
 }
 
+/**
+ * Extension to UInt8 to turn the int into a String representing its values per bit
+ * Used for reading values send back from the relay device
+ */
 extension UInt8 {
     public func toBits() -> String
     {

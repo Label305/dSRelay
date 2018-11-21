@@ -10,6 +10,13 @@ import Foundation
 import then
 
 extension Device {
+    /**
+     * Returns an array of 8 boolean where each index corresponds with the status value for input <index + 1>
+     * Thus, status[0] = true/false for input 1
+     *       status[1] = true/false for input 2
+     *       ...
+     *       status[7] = true/false for input 8
+     */
     open func getInputStatus() -> Promise<[Bool]> {
         let payload: [UInt8] = [0x34, 0x01, 0x01]
 
@@ -34,6 +41,15 @@ extension Device {
         }
     }
 
+    /**
+     * Returns an array of 8 unsigned shorts where each index corresponds with the status for analogue input <index + 1>
+     * Thus, status[0] = UInt16 for analogue input 1
+     *       status[1] = UInt16 for analogue input 2
+     *       ...
+     *       status[7] = UInt16 for analogue input 8
+     *
+     * The status is either a 0 or 1 if the input is configured as a digital port
+     */
     open func getAnalogueInputStatus() -> Promise<[UInt16]> {
         let payload: [UInt8] = [0x35]
 
