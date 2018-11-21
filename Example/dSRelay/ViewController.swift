@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import dSRelay
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if let device = Device(ipaddress: "127.0.0.1", port: 17123) {
+            // successfully connected to device
+            device.getStatus().then { status in // asynchronously get info of device
+            }
+
+            if let status = device.getRelayStatus().value // synchronously get info of device
+        }
     }
 
     override func didReceiveMemoryWarning() {

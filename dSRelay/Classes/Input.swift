@@ -41,7 +41,6 @@ extension Device {
             self.send(data: payload, expectedLength: 16)
                 .then { data in
                     var status: [UInt16] = Array<UInt16>(repeating: 0, count: 8)
-                    var index = 0
 
                     for i in 0..<8 {
                         let dIndex1 = i * 2
