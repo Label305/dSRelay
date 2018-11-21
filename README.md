@@ -11,6 +11,8 @@ by Robot Electronics' documentation.
 
 To run the example/tests project, clone the repo, and run `pod install` from the Example directory first.
 
+This library was tested on the [dS282](https://robot-electronics.co.uk/ds2824-24-x-16a-ethernet-relay.html)
+
 To create a device:
 
 ``` swift
@@ -26,8 +28,8 @@ if let status = device.getRelayStatus().value // synchronously get info of devic
 
 ## Sending Commands
 
-The binary command set documented by Robot Electronics is implemented
-in this library.
+The binary commands documented by Robot Electronics are implemented
+in this library. [The original documentation can be found here](https://robot-electronics.co.uk/dscript.html).
 
 ### Get Status
 
@@ -62,9 +64,18 @@ device.setRelay(relayNr: 1, pulseTime: 1000).then { result in
 
 ### Get Status of Relays
 
+Note: the order of relay status indicated in the bytes returned was changed between firmware versions 2 and 3.
+This library takes this difference into account and thus should work with any device with any firmware.
+
+For reference:
+
+- [Documentation of firmware v2.20 (see page 33)](http://www.robot-electronics.co.uk/files/dS2824.pdf)
+
+- [Documentation of firmware v3.01 (see page 38)](https://www.robotshop.com/media/files/pdf2/ds2824_-_v3.01.pdf)
+
 ``` swift
 device.getRelayStatus().then { statuses in
-    // statuses is an array of 32 (virtual) relays
+    // statuses is an array of 32 (virtual) relays, 0 = status for relay 1 .. 31 = status for (virtual) relay 32
 }
 ```
 
