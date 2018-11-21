@@ -22,7 +22,7 @@ extension Device {
 
                     var i = 0
                     for c in binaryString {
-                        status[i] = c == "1"
+                        status[7 - i] = c == "1"
                         i += 1
                     }
 

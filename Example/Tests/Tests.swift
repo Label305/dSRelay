@@ -130,10 +130,11 @@ class InputTests : QuickSpec {
         describe("input commands") {
             it("should get input statues") {
                 let dev = DeviceMock()
-                dev.setExpectedValues(returnData: [0x00, 0b01010101])
+                dev.setExpectedValues(returnData: [0x00, 0b01011101])
                 dev.getInputStatus().then { values in
+                    let expectedValues = Array<Bool>([false, true, false, true, true, true, false, true])
                     for i in 0..<8 {
-                        expect(values[i] == (i % 2 == 1)) == true
+                        expect(values[i] == expectedValues[i]) == true
                     }
                 }
             }
