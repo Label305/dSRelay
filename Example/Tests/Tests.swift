@@ -22,7 +22,7 @@ class CounterTests : QuickSpec {
                 let dev = DeviceMock()
                 
                 dev.setExpectedValues(returnData: Array<UInt8>(repeating: 0x0F, count: 8))
-                dev.getCounters(counterNr: 1).then { statusObject in
+                dev.getCounters().then { statusObject in
                     expect(statusObject.0 == UInt(0b00001111000011110000111100001111)) == true
                 }
             }

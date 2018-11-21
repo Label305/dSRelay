@@ -13,8 +13,8 @@ extension Device {
     /**
      * Returns a tuple of (counterValue, captureRegister)
      */
-    open func getCounters(counterNr: UInt8) -> Promise<(UInt, UInt)> {
-        let payload: [UInt8] = [0x36, counterNr]
+    open func getCounters() -> Promise<(UInt, UInt)> {
+        let payload: [UInt8] = [0x36, 0x01]
         
         return Promise { resolve, reject in
             self.send(data: payload, expectedLength: 8)
