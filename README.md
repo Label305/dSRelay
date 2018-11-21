@@ -7,9 +7,20 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example/tests project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+To create a device:
+
+``` swift
+if let device = Device(ipaddress: <ipaddress>, port : 17123) {
+    // do something
+}
+
+device.getStatus().then { status in // asynchronously get info of device
+}
+
+if let status = device.getRelayStatus().value // synchronously get info of device
+```
 
 ## Installation
 
@@ -26,4 +37,4 @@ meirbon, meirnoordermeer@me.com
 
 ## License
 
-dSRelay is available under the MIT license. See the LICENSE file for more info.
+dSRelay is available under the Apache 2.0 license. See the LICENSE file for more info.
