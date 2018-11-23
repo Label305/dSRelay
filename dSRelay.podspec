@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'dSRelay'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A Swift library for connecting with Robot Electronics ethernet relay devices.'
 
   s.description      = <<-DESC
