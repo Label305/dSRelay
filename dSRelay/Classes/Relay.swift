@@ -9,6 +9,10 @@
 import Foundation
 import then
 
+enum StatusError : Error {
+    case ConnectionError
+}
+
 extension Device {
     /**
      * Sets a relay to the specified state
@@ -69,30 +73,38 @@ extension Device {
     open func getRelayStatus() -> Promise<[Bool]> {
         let payload: [UInt8] = [0x33, 0x01]
         
-        if self.status!["appFirmwareMajor"]! >= UInt(3) {
-            return Promise { resolve, reject in
+        return Promise { resolve, reject in
+            if self.status == nil {
+                self.getStatus().then { status in
+                    self.status = status
+                }
+            } else {
+                reject(StatusError.ConnectionError)
+            }
+
+            if self.status!["appFirmwareMajor"]! >= UInt(3) {
+                
                 self.send(data: payload, expectedLength: 32)
                     .then { data in
                         var status: [Bool] = Array<Bool>(repeating: false, count: 32)
-
+                        
                         var binaryString = String();
                         for i in 0..<4 {
                             binaryString += data[i + 1].toBits().pad(with: "0", toLength: 8)
                         }
-
+                        
                         var i = 31
                         for c in binaryString {
                             status[i] = c == "1"
                             i -= 1
                         }
-
+                        
                         resolve(status)
                     }.onError { error in
                         reject(error)
                 }
-            }
-        } else {
-            return Promise { resolve, reject in
+                
+            } else {
                 self.send(data: payload, expectedLength: 5)
                     .then { data in
                         var status: [Bool] = Array<Bool>(repeating: false, count: 32)
@@ -122,7 +134,6 @@ extension Device {
         }
     }
 }
-
 /**
  * Extension to String to pad a string to a specified length with a specified character
  */
