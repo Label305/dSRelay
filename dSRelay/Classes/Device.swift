@@ -28,7 +28,7 @@ open class Device {
             return nil
         }
     }
-    
+
     public init(connection: TCPClient, timeout: Int = 5) {
         self.ipaddress = connection.address
         self.port = connection.port
@@ -94,6 +94,12 @@ open class Device {
         return Promise { resolve, reject in
             self.send(data: payload, expectedLength: 8)
                 .then { data in
+
+                    if data.count < 8 {
+                        reject(StatusError.MinimumResponseLengthNotSatisfiedError)
+                    }
+
+
                     let status: Dictionary<String, UInt> = [
                         "moduleID": UInt(data[0]),
                         "systemFirmwareMajor": UInt(data[1]),
