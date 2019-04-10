@@ -1,5 +1,5 @@
 PODS:
-  - dSRelay (0.1.0):
+  - dSRelay (0.1.3):
     - SwiftSocket
     - thenPromise
   - InstantMock (2.2.1)
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dSRelay: 9b3ef3597123726d59c1cbd924ec0298fa5a40b7
+  dSRelay: 3a065463baef83b1da073c825d251150d6394305
   InstantMock: f9fa28bd0ddb7115329e02d2a1979cc2e7752dca
   Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
   Quick: 2623cb30d7a7f41ca62f684f679586558f483d46

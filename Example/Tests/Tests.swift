@@ -48,11 +48,11 @@ class RelayTests : QuickSpec {
             it("should set a relay with status") {
                 let dev = DeviceMock()
                 dev.setExpectedValues(returnData: [0x00])
-                dev.setRelay(relayNr: 1, pulseTime: 1000).then { result in
+                dev.setRelay(relayNr: 1, set: Status.On).then { result in
                     expect(result) == true
                 }
                 dev.setExpectedValues(returnData: [0x01])
-                dev.setRelay(relayNr: 1, pulseTime: 1000).then { result in
+                dev.setRelay(relayNr: 1, set: Status.On).then { result in
                     expect(result) == false
                 }
             }
