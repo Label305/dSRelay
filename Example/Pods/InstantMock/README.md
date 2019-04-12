@@ -100,10 +100,18 @@ func returnsCustom() -> CustomType {
 }
 ```
 #### Throwing
-For catching errors on throwing methods, simply use `callThrowable()` instead of `call()`. For example:
+For catching errors on throwing methods, simply use `callThrowing()` instead of `call()`.
+
+If a return value type adopts the [MockUsable](#mockusable) protocol (which is the case for the most common types like `Bool`, `Int`…), just force unwrapping the result to `callThrowing()`, like in the following example:
 ```Swift
-func baz() throws -> Bool {
-    return try mock.callThrowable()!
+func bazMockUsable() throws -> Bool {
+    return try callThrowing()!
+}
+```
+For other types, make sure to provide a default value, like in the following example:
+```Swift
+func bazCustom() throws -> CustomType {
+    return try callThrowing() ?? CustomType() // return a `CustomType` default value
 }
 ```
 
@@ -178,6 +186,12 @@ Verifying expectations and rejections is done this way:
 mock.verify()
 ```
 
+### Reset Expectations
+Expecations can be reset this way:
+```Swift
+mock.resetExpectations()
+```
+
 ## How to Stub Calls?
 
 Stubs aim at performing actions when a function is called with some arguments. They are set using a syntax like in the following example:
@@ -213,6 +227,25 @@ Rules:
 * the last error registered by `andThrow` is thrown
 * the last return value registered by `andReturn` is returned
 * otherwise, the last return value computation method, registered by `andReturn(closure:)`, is called
+
+### Reset Stubs
+Stubs can be reset this way:
+```Swift
+mock.resetStubs()
+```
+
+Example:
+```Swift
+// configure mock to return "string" when calling `basic` whatever provided arguments
+mock.stub().call(mock.basic(arg1: Arg.any(), arg2: Arg.any())).andReturn("string")
+
+// reset the previously configured stubs
+mock.resetStubs()
+
+// calling `basic` does not return "string"
+let ret = mock.basic(arg1: "", arg2: 2)
+XCTAssertNotEqual(ret, "string")
+```
 
 ## Argument Matching
 

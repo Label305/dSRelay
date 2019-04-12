@@ -353,29 +353,29 @@
 		26214BABB9647DF444D2B961F95B1DE5 /* Promise+nil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+nil.swift"; path = "Source/Promise+nil.swift"; sourceTree = "<group>"; };
 		2976EE9219E123971C00FBC99B81C650 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
 		298CE5F9C1C0D91AB208880ED1B70E42 /* Pods-dSRelay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dSRelay_Example-resources.sh"; sourceTree = "<group>"; };
-		29C2CF5FF4196F7FA75AF022288A0039 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
+		29C2CF5FF4196F7FA75AF022288A0039 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
 		2A41219D7B8C772B02F3EF6439893BB3 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		2CC5C8C2F130B54CBCF0E556336F6ACD /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		2CF34F1C68C77C90E663FD7D7BCC6536 /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Source/Await.swift; sourceTree = "<group>"; };
 		2D251C0BECA066A9F3BF5AC28F903897 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		2D292A908693E7054F6C57CABCDA88F3 /* ArgumentValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentValue.swift; path = Sources/InstantMock/Arguments/Argument/ArgumentValue.swift; sourceTree = "<group>"; };
-		2DF782A4F2DBB11DE1594AF5B26CEA5C /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF782A4F2DBB11DE1594AF5B26CEA5C /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF5A49A6CEC0F39CDD703AF3564DB0C /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
 		30452CB3CA5DFF2A438B83E69EDE9C79 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		310C8378A4928B279DD5886131EAE541 /* Promise+Chain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Chain.swift"; path = "Source/Promise+Chain.swift"; sourceTree = "<group>"; };
-		31605ECE89B47A157C175357A8F7B840 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31605ECE89B47A157C175357A8F7B840 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		326BB89B07357F673CFDD0EDD90E956C /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/InstantMock/Interceptors/Expectation.swift; sourceTree = "<group>"; };
 		344014BA05E98C91D1F0AB9EB26054F6 /* Promise+Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Progress.swift"; path = "Source/Promise+Progress.swift"; sourceTree = "<group>"; };
-		39440846440C0ACE66D589ABC5824C38 /* dSRelay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = dSRelay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39440846440C0ACE66D589ABC5824C38 /* dSRelay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = dSRelay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E1908600E8FF6910ECEF5AE1F03E5C7 /* DefaultClosureHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultClosureHandler.swift; path = Sources/InstantMock/DefaultValue/DefaultClosureHandler.swift; sourceTree = "<group>"; };
 		3E38409BE76FF84FD2E1DD08B2DB35DB /* Promise+Retry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Retry.swift"; path = "Source/Promise+Retry.swift"; sourceTree = "<group>"; };
 		3E4B0EC28BCDEE18A3A2736DD040C926 /* ArgumentsMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentsMatcher.swift; path = Sources/InstantMock/Arguments/Helpers/ArgumentsMatcher.swift; sourceTree = "<group>"; };
 		3FDC1C11CD9367E4FEA21D030471B041 /* ArgumentVerify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentVerify.swift; path = Sources/InstantMock/Arguments/Argument/ArgumentVerify/ArgumentVerify.swift; sourceTree = "<group>"; };
 		403FF1CD28B21F8C5C7B033805DA5813 /* Arg+Closure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Arg+Closure.swift"; path = "Sources/InstantMock/Arguments/Arg+Closure.swift"; sourceTree = "<group>"; };
-		41C4DF48A5306C2F827A07A9C6192AE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		41C4DF48A5306C2F827A07A9C6192AE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		41F3519066135CA13B18EF14F78D30D2 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		431D2E5C9D045C577DD352DEF0AAB794 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
-		44BDFA9897C7ED8BAE28E33B3B9538D4 /* then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BDFA9897C7ED8BAE28E33B3B9538D4 /* then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = then.framework; path = thenPromise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		458F944C78B0BA7B12E664122DD69F01 /* InstantMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstantMock-dummy.m"; sourceTree = "<group>"; };
 		46FF20747E260F8F57EC4667F440FDB9 /* Pods-dSRelay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dSRelay_Example.modulemap"; sourceTree = "<group>"; };
 		4AF7D0905FC7DB56C0C8F3FC5184CCB7 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
@@ -398,7 +398,7 @@
 		554AD1A0120EB75DFE6A3BAC33C0E593 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		561114E22064CFF53733C503C6A2491C /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
 		5835A27D36BC9ECEA68743D7ABDC894D /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
-		58698A8870427BA65C2344B39C981544 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58698A8870427BA65C2344B39C981544 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592F4DFCD693F818EB54DAB8F2AEB415 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		5A0CF47A4D7D552313655DA3C2D90FE7 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		5B40B405249504DBFB9A7CBCF98D5405 /* Int+MockUsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+MockUsable.swift"; path = "Sources/InstantMock/MockUsable/Int+MockUsable.swift"; sourceTree = "<group>"; };
@@ -407,10 +407,10 @@
 		5D3DAC7741244875CC49259BB9B223F3 /* MockUsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockUsable.swift; path = Sources/InstantMock/MockUsable/MockUsable.swift; sourceTree = "<group>"; };
 		5E0CF54A224D27CBD3642BB728375CFA /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		5EA8D0F5634B87908A6D050B78CA2B21 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
-		5F1A40A963A47CD7E609C58C44779C15 /* dSRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dSRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1A40A963A47CD7E609C58C44779C15 /* dSRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = dSRelay.framework; path = dSRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6197D87BFFB61C371D226ACB08AC0F85 /* Pods-dSRelay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dSRelay_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6259705531FA3964E573D8FD56E08007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62604FD1B1D5A824CE647F67E58BD015 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		62604FD1B1D5A824CE647F67E58BD015 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6539A3491B060A361219E4F436200A50 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
 		6562484EA83C14CCCE83F71A257A8CE4 /* Promise+Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Then.swift"; path = "Source/Promise+Then.swift"; sourceTree = "<group>"; };
 		671A065ACB340B96631C0041B0EFD7E8 /* Set+MockUsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Set+MockUsable.swift"; path = "Sources/InstantMock/MockUsable/Set+MockUsable.swift"; sourceTree = "<group>"; };
@@ -456,11 +456,11 @@
 		9074F4641BDA3E27ABAA4F50F465750A /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		90A4A568D9AE0D098C631E5276B6F09A /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		93444744604B3AD7E16CE39E5B6796F4 /* dSRelay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dSRelay-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93ACCD867C33C67607EABCB35F9D7E6A /* InstantMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantMock-prefix.pch"; sourceTree = "<group>"; };
 		959B1F161879FA35588C462C29A7163C /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		96D9AC3ACA643A1E9FC36B31A3BDB381 /* Await+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Await+Operators.swift"; path = "Source/Await+Operators.swift"; sourceTree = "<group>"; };
-		9863AD137A546ECB99DD3EE6F3B25965 /* Pods_dSRelay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dSRelay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9863AD137A546ECB99DD3EE6F3B25965 /* Pods_dSRelay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dSRelay_Tests.framework; path = "Pods-dSRelay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D5B1FDA8BF50288C3B75CE46D4B1F8 /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/InstantMock/Mock.swift; sourceTree = "<group>"; };
 		9A38E3E17A5DFD71269268DE5DF5104D /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		9D6CB5A0B1CF07B32FFF636E1BE53C20 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
@@ -490,7 +490,7 @@
 		B2D6E63A14022E6C9D14E31BF8E21953 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		B3BFBC58A3EC675A71D3DC4368185AE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B46F8B5142334A8C83656E87BF47A1BC /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickSpecBase/QuickSpecBase.m; sourceTree = "<group>"; };
-		B54F677A91F9EFA2161180C8D87550A3 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
+		B54F677A91F9EFA2161180C8D87550A3 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
 		B6B278746002623BAEDD9B12B736F20C /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		B6CB1A7CE3EA6CA887E435CE6F7F1059 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		B78A9283C5D65BB0F2BEFF35434FEFE0 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
@@ -502,7 +502,7 @@
 		BD29BE5E187FC93E215896AB346AE6C5 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		BF3894DA3B07C5536C5508C79970FAE7 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		C01C8994997E708725AC4DF1682AF792 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
-		C155952496C5DA992BCEE256DD7B006F /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		C155952496C5DA992BCEE256DD7B006F /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		C2B3BD36E6D0F51D35694E70DE1C55B6 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		C2C0F1C65F8FC6FD65E7D55AB2122737 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
 		C47EF756CE97A125942D8F102F9A6812 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
@@ -557,8 +557,8 @@
 		F8415252717CAAD50F0C23A0B1E92C9B /* thenPromise-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "thenPromise-prefix.pch"; sourceTree = "<group>"; };
 		F9AF3A699D84E9FFE5B3C2300FBF30F1 /* Counters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Counters.swift; path = dSRelay/Classes/Counters.swift; sourceTree = "<group>"; };
 		FA9CC32610D77CD1AFB49D51B30C0DEE /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
-		FAAAFC85CF1B6903DF5CC387496E9EEC /* Pods_dSRelay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dSRelay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC1AC047D87E847F8DAE2791F91B9413 /* InstantMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstantMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAFC85CF1B6903DF5CC387496E9EEC /* Pods_dSRelay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dSRelay_Example.framework; path = "Pods-dSRelay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1AC047D87E847F8DAE2791F91B9413 /* InstantMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InstantMock.framework; path = InstantMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC450584F20B74ECCF576B893C52B1EE /* Output.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Output.swift; path = dSRelay/Classes/Output.swift; sourceTree = "<group>"; };
 		FD8A76F3B5771B4CC5EF41430E731D59 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -741,6 +741,7 @@
 				E458BD6960F805D8D919482A716F1D54 /* XCTestObservationCenter+Register.m */,
 				86CCE9CD625BD007316818BBE5ADE30F /* Support Files */,
 			);
+			name = Nimble;
 			path = Nimble;
 			sourceTree = "<group>";
 		};
@@ -818,6 +819,7 @@
 				F82F91789EA55DCA5B04ED42D971833F /* Verifier.swift */,
 				218DD3363DB4BF243A87DB63F18D202E /* Support Files */,
 			);
+			name = InstantMock;
 			path = InstantMock;
 			sourceTree = "<group>";
 		};
@@ -889,6 +891,7 @@
 				6A8D15E949610B8F670EC97513DB3F56 /* WhenAll.swift */,
 				C8C65535D2B036879709B93B009F9FD0 /* Support Files */,
 			);
+			name = thenPromise;
 			path = thenPromise;
 			sourceTree = "<group>";
 		};
@@ -963,6 +966,7 @@
 				29C2CF5FF4196F7FA75AF022288A0039 /* yudpsocket.c */,
 				9D47BC0B6324626D3B6F5186853A3E67 /* Support Files */,
 			);
+			name = SwiftSocket;
 			path = SwiftSocket;
 			sourceTree = "<group>";
 		};
@@ -1022,6 +1026,7 @@
 				22FCE73CFC05DFD54D463AAC0B125D97 /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				A125BC4D17DFA23AC7057F35A7D2F063 /* Support Files */,
 			);
+			name = Quick;
 			path = Quick;
 			sourceTree = "<group>";
 		};
@@ -2158,7 +2163,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2177,7 +2183,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/InstantMock/InstantMock-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/InstantMock/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2336,7 +2341,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/InstantMock/InstantMock-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/InstantMock/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

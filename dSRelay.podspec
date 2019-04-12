@@ -12,7 +12,7 @@ A Swift library to connect with devices from Robot Electronics such as the dS282
   s.license          = { :type => 'Apache 2', :file => 'LICENSE' }
   s.author           = { 'Mèir Noordermeer' => 'meirnoordermeer@me.com' }
   s.source           = { :git => 'https://github.com/Label305/dSRelay.git', :tag => s.version.to_s }
-  s.swift_version = '4.2'
+  s.swift_version    =  '4.2'
 
   s.dependency 'SwiftSocket'
   s.dependency 'thenPromise'

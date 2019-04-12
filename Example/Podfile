@@ -11,8 +11,8 @@ target 'dSRelay_Example' do
     pod 'dSRelay', :path => '../'
     pod 'SwiftSocket'
     pod 'thenPromise'
-    pod 'Quick'
-    pod 'Nimble'
+    pod 'Quick', '~> 1.3.2'
+    pod 'Nimble', '~> 7.3.1'
     pod 'InstantMock'
   end
 end
